@@ -174,11 +174,11 @@ const engineerData = () => {
   },
   {
     type: 'input',
-    name: 'engineerGithub',
+    name: 'gitHub',
     message: `What is employee's Github?`,
   }])
     .then(result => {
-      let engineer = new Engineer(result.employeeName, result.employeeID, result.employeeEmail, result.managerOfficeNumber);
+      let engineer = new Engineer(result.employeeName, result.employeeID, result.employeeEmail, result.gitHub);
       team.push(engineer)
       mainQuery()
     })
@@ -203,11 +203,11 @@ const internData = () => {
   },
   {
     type: 'input',
-    name: 'internSchool',
+    name: 'school',
     message: `What is employee's school?`,
   }])
     .then(result => {
-      let intern = new Intern(result.employeeName, result.employeeID, result.employeeEmail, result.managerOfficeNumber);
+      let intern = new Intern(result.employeeName, result.employeeID, result.employeeEmail, result.school);
       team.push(intern)
       mainQuery()
     })
