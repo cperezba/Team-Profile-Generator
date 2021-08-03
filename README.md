@@ -33,9 +33,13 @@ The purpose of this project was to streamline the process of creating a staff di
 Installation Instructions: 
 1. Open the Profile-Generator on VS Code or Code Editor. 
 1. Open inegrated terminal within index.js. 
-1. Install dependencies using the following command propmpt: ```npm i``` 
+1. Install dependencies using the following command prompt: ```npm i``` 
 1. Run program by running the command prompt: ```node index.js``` 
-1. After finishing the question prompts,, a fully fleshed out team.HTML file will appear on the text file folders. (In VS Code, to the left.)
+1. After finishing the question prompts, a fully fleshed out team.HTML file will appear on the text file folders. (In VS Code, to the left.)
+
+<br/>
+
+For an visual step-by-step walkthrough of installation, click [here](https://drive.google.com/file/d/1e9vPeKm_6i2J8zVCzsMmfG56jQbjhaxu/view).
 
 
 <br/>
